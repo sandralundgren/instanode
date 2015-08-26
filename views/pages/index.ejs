@@ -13,11 +13,9 @@
  <div class="row">
   <% grams.forEach(function(gram) { %>
   <div class="instagram-pic col-sm-3">
-   <a href="<%= gram.images.standard_resolution.url %>" data-toggle="lightbox" data-gallery="multiimages" 
-    <% if ( gram.caption.text != "" || gram.caption.text !== null ) { %> data-title="<%= gram.caption.text %>" <% } %>
-    data-footer="<a href='<%= gram.link %>' target='_blank'>Open in Instagram</a>">
-    <img src="<%= gram.images.standard_resolution.url %>" class="img-responsive">
-   </a>
+    <a href="<%= gram.images.standard_resolution.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= ( gram.caption ) ? gram.caption.text : ''; %>" data-footer="<a href='<%= gram.link %>' target='_blank'>Open in Instagram</a>">
+      <img src="<%= gram.images.standard_resolution.url %>" class="img-responsive">
+    </a>
   <div class="instagram-bar">
    <div class="likes">
     <span class="glyphicon glyphicon-heart"></span>
