@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+ <title>Instanode</title>
+
+ <!-- CSS -->
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/cosmo/bootstrap.min.css">
+ <link rel="stylesheet" href="css/ekko-lightbox.min.css">
+ <link rel="stylesheet" href="css/style.css">
+
+ <!-- Bootstrap JS for modal -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
+
+
+ <script type="text/javascript">
+
+  $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  }); 
+
+ </script>
+
