@@ -10,9 +10,9 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 .instagram-pic {
-  position:relative;
-  padding:10px;
-  overflow:hidden;
+  position: relative;
+  padding: 10px;
+  overflow: hidden;
 }
 .instagram-pic img {
   padding: 0px;
@@ -20,23 +20,23 @@ h1 {
   box-shadow: 0 0 5px rgb(181, 150, 150);
 }
 .instagram-bar {
-  position:absolute;
-  bottom:30px;
-  width:100%;
-  left:0;
-  padding-left:30px;
-  padding-right:30px;
-  color:#67f3c3;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #67f3c3;
   text-shadow: 2px 2px 4px #000000;
 }
 .instagram-bar span {
-  margin-right:5px;
+  margin-right: 5px;
 }
 .instagram-bar .likes {
-  float:left;
+  float: left;
 }
 .instagram-bar .comments {
-  float:right;
+  float: right;
 }
 .modal-backdrop {
   position: fixed;
