@@ -48,7 +48,9 @@ h1 {
   background-color: #000;
 }
 .modal-footer a {
+  color: #45cc9f;
   text-align: center;
+  font-weight: 600;
 }	
 footer {
   margin-top: 3em;
