@@ -14,7 +14,7 @@
   <% grams.forEach(function(gram) { %>
   <div class="instagram-pic col-sm-3">
    <a href="<%= gram.images.standard_resolution.url %>" data-toggle="lightbox" data-gallery="multiimages" 
-    data-title="<%= gram.caption.text %>"
+    <% if ( gram.caption.text != "" ) { %> data-title="<%= gram.caption.text %>" <% } %>
     data-footer="<a href='<%= gram.link %>' target='_blank'>Open in Instagram</a>">
     <img src="<%= gram.images.standard_resolution.url %>" class="img-responsive">
    </a>
