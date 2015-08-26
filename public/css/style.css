@@ -1,11 +1,13 @@
 body {
   background-color: #333;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   color: #67f3c3;	
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  font-weight: 700;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
 }
 .instagram-pic {
   position:relative;
@@ -24,7 +26,8 @@ h1 {
   left:0;
   padding-left:30px;
   padding-right:30px;
-  color:#FFF;
+  color:#67f3c3;
+  text-shadow: 2px 2px 4px #000000;
 }
 .instagram-bar span {
   margin-right:5px;
@@ -44,6 +47,10 @@ h1 {
   z-index: 1020;
   background-color: #000;
 }
+.modal-footer a {
+  text-align: center;
+}	
 footer {
-  margin-top: 2em;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
