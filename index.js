@@ -16,7 +16,7 @@ app.use(express.static(__dirname + '/public'));
 ig.use(
   config.ig
 );
-//console.log(config);
+
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -42,3 +42,5 @@ app.get('/', function(req, res) {
 // ==================================================
 app.listen(8080);
 console.log('App started! Look at http://localhost:8080');
+
+//console.log(config);

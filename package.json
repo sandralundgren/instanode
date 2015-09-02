@@ -9,5 +9,8 @@
     "ejs": "^2.3.3",
     "express": "^4.13.3",
     "instagram-node": "^0.5.7"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.4"
   }
 }
