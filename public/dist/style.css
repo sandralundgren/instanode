@@ -1,0 +1,55 @@
+body {
+  background-color: #333;
+  font-family: 'Raleway', sans-serif; }
+
+h1, h4 {
+  font-family: 'Raleway', sans-serif; }
+
+h1 {
+  color: #67f3c3;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-weight: 600; }
+
+.instagram-pic {
+  position: relative;
+  padding: 10px;
+  overflow: hidden; }
+  .instagram-pic img {
+    padding: 0px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #b59696; }
+
+.instagram-bar {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #67f3c3;
+  text-shadow: 2px 2px 4px #000000; }
+  .instagram-bar span {
+    margin-right: 5px; }
+  .instagram-bar .likes {
+    float: left; }
+  .instagram-bar .comments {
+    float: right; }
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1020;
+  background-color: #000; }
+
+.modal-footer a {
+  color: #45cc9f;
+  text-align: center;
+  font-weight: 600; }
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 2em; }

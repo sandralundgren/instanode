@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).delegate('*[data-toggle="lightbox"]',"click",function(t){t.preventDefault(),$(this).ekkoLightbox()})});
