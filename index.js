@@ -4,6 +4,7 @@
 var express = require('express');
 var app = express();
 var ig = require('instagram-node').instagram();
+var config = require('./config.js');
 
 // CONFIGURE THE APP
 // ==================================================
@@ -12,10 +13,10 @@ var ig = require('instagram-node').instagram();
 app.use(express.static(__dirname + '/public'));
 
 // configure instagram app with client_id
-ig.use({
-  client_id: '3beb897fba7241f89d8374fabb316c99',
-  client_secret: 'd80d5dc12e0e41439782b6f04f1ffb0b'
-});
+ig.use(
+  config.ig
+);
+//console.log(config);
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -33,7 +34,7 @@ app.get('/', function(req, res) {
   ig.media_popular(function(err, medias, remaining, limit) {
 // render the home page and pass in the popular images
     res.render('pages/index', { grams: medias });
-      
+
   });
 });
 
