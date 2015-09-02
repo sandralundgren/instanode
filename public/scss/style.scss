@@ -1,24 +1,27 @@
 body {
   background-color: #333;
-  font-family: 'Raleway', sans-serif; }
-
+  font-family: 'Raleway', sans-serif;
+}
 h1, h4 {
-  font-family: 'Raleway', sans-serif; }
-
+  font-family: 'Raleway', sans-serif;
+}
 h1 {
   color: #67f3c3;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  font-weight: 600; }
-
+  font-weight: 600;
+}
 .instagram-pic {
   position: relative;
   padding: 10px;
-  overflow: hidden; }
-  .instagram-pic img {
+  overflow: hidden;
+
+  img {
     padding: 0px;
     border-radius: 2px;
-    box-shadow: 0 0 5px #b59696; }
+    box-shadow: 0 0 5px rgb(181, 150, 150);
+  }
+}
 
 .instagram-bar {
   position: absolute;
@@ -28,13 +31,20 @@ h1 {
   padding-left: 30px;
   padding-right: 30px;
   color: #67f3c3;
-  text-shadow: 2px 2px 4px #000000; }
-  .instagram-bar span {
-    margin-right: 5px; }
-  .instagram-bar .likes {
-    float: left; }
-  .instagram-bar .comments {
-    float: right; }
+  text-shadow: 2px 2px 4px #000000;
+
+  span {
+    margin-right: 5px;
+  }
+
+  .likes {
+    float: left;
+  }
+
+  .comments {
+    float: right;
+  }
+}
 
 .modal-backdrop {
   position: fixed;
@@ -43,13 +53,15 @@ h1 {
   bottom: 0;
   left: 0;
   z-index: 1020;
-  background-color: #000; }
-
+  background-color: #000;
+}
 .modal-footer a {
   color: #45cc9f;
   text-align: center;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 footer {
   margin-top: 3em;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
